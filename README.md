@@ -1,1 +1,0 @@
-# metodo-influencia-digital
