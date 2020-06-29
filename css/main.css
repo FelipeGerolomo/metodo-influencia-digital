@@ -315,7 +315,7 @@ strong {
   position: absolute;
   width: 81%;
   left: 2px;
-    top: -66px;
+  top: -66px;
 }
 
 .book {
@@ -372,6 +372,8 @@ strong {
   text-decoration: none;
   margin-top: 20px;
   margin-bottom: 65px;
+  position: relative;
+  z-index: 100;
 }
 
 .linkInscrever h4 {
@@ -458,7 +460,7 @@ a.btn-comprar-agora {
 
 footer {
   width: 100%;
-  background-color: #78D7FF;
+  background-color: #78d7ff;
   padding: 20px 0px;
 }
 
@@ -603,11 +605,11 @@ a.instagram-digital img {
 }
 
 a.duvida {
-  font-family: 'Montserrat Bold';
+  font-family: "Montserrat Bold";
   border: 2px solid white;
   font-size: 25px;
   padding: 15px;
-  background-color: #49C9FA;
+  background-color: #49c9fa;
   color: white;
   width: 100%;
   display: block;
@@ -628,7 +630,7 @@ a.duvida:hover {
 
 @media (max-width: 425px) {
   .fs-sm-21 {
-    font-size: 21px!important;
+    font-size: 21px !important;
   }
 
   .element-svg-2 {
@@ -660,8 +662,8 @@ a.duvida:hover {
   }
 
   .bonus {
-    color: white!important;
-    font-size: 36px!important;
+    color: white !important;
+    font-size: 36px !important;
   }
 
   a.instagram-digital {
@@ -687,7 +689,6 @@ a.duvida:hover {
   a.duvida p {
     align-self: center;
   }
-
 
   .collapse-container {
     padding: 10px;
@@ -808,7 +809,7 @@ a.duvida:hover {
 }
 
 .navbar-metodo {
-  background-color: #49C9FA;
+  background-color: #49c9fa;
   padding: 40px 0px 40px 0px;
 }
 
@@ -821,6 +822,6 @@ a.active {
 }
 
 footer.metodo {
-  background-color: #78D7FF;
+  background-color: #78d7ff;
   padding: 40px 0px 40px 0px;
 }
