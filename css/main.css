@@ -1,0 +1,759 @@
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  font-weight: 600;
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat Extra-Bold";
+  font-weight: 800;
+  src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat Light";
+  font-weight: 400;
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  font-weight: 600;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+.site {
+  padding-top: 10px;
+  background-color: #49c9fa;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+a {
+  font-family: "Montserrat Medium";
+  margin: 0px;
+}
+
+h1,
+h2,
+h5,
+h6 {
+  line-height: 1.5;
+}
+
+li {
+  font-family: "Montserrat Regular";
+}
+
+strong {
+  font-family: "Montserrat Bold";
+}
+
+.montserrat-light {
+  font-family: "Montserrat Light" !important;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat Regular" !important;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat Bold" !important;
+}
+
+.montserrat-extra-bold {
+  font-family: "Montserrat Extra-Bold" !important;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat Medium";
+}
+
+.roboto-regular {
+  font-family: "Roboto Regular";
+}
+
+.roboto-bold {
+  font-family: "Roboto Bold" !important;
+}
+
+.roboto-bold {
+  font-family: "Roboto Bold";
+}
+
+.thumb-video {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.video-container {
+  padding: 0% 10% 0% 10%;
+}
+
+.custom-container {
+  width: 1280px;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.owl-one img {
+  width: unset !important;
+  max-height: 730px !important;
+  margin: 0 auto;
+}
+
+.line-heigth-1-5 {
+  line-height: 1.5;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.logo {
+  width: 22%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.section-blue {
+  background-color: #49c9fa;
+}
+
+.section-blue-image-bg {
+  background-image: url(../images/bg-elementos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.35;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  filter: brightness(100%) contrast(100%) saturate(100%) blur(0px)
+    hue-rotate(0deg);
+}
+
+.section-black {
+  background-color: black;
+}
+
+.section-white {
+  background-color: white;
+}
+
+.section-yellow {
+  background-color: #fdca03;
+  padding: 2% 0% 6% 0%;
+}
+
+.section-grey {
+  background-color: #f2f2f2;
+}
+
+.section-concrete {
+  background-color: #f2f2f2;
+}
+
+.section-blue-light {
+  background-color: #44c8ff;
+}
+
+.section-purple {
+  background-color: #9403fd;
+}
+
+.section-pink {
+  background-color: #ff0071;
+  padding: 2% 0% 6% 0%;
+}
+
+.section-voce-receber .container {
+  max-width: 100% !important;
+}
+
+.section-voce-receber h2 {
+  line-height: 30px;
+}
+
+.section-voce-receber p {
+  line-height: 26px;
+}
+
+.section-padding {
+  padding: 2% 0% 15% 0%;
+}
+
+.element-svg-2 {
+  height: 70px;
+}
+
+.element-svg-3 {
+  height: 49px;
+}
+
+.wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+
+.img-isabela {
+  width: 100%;
+}
+
+.instagram img {
+  height: 50px;
+}
+
+.instagram a {
+  font-weight: 600;
+}
+
+.instagram a:hover {
+  text-decoration: none;
+}
+
+.swiper-slide img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.swiper-container {
+  padding-bottom: 40px !important;
+  position: static !important;
+}
+
+.swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  display: inline-block !important;
+  -webkit-border-radius: 50% !important;
+  border-radius: 50% !important;
+  background: #000 !important;
+  opacity: 0.2 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
+
+.swiper-button-prev {
+  left: -20px !important;
+  top: calc(55%) !important;
+}
+
+.swiper-button-next {
+  right: -12px !important;
+  top: calc(55%) !important;
+}
+
+.swiper-button-prev img {
+  height: 20px;
+}
+
+.swiper-button-prev::after {
+  content: "" !important;
+}
+
+.swiper-button-next img {
+  height: 20px;
+}
+
+.swiper-button-next::after {
+  content: "" !important;
+}
+
+.book-bg {
+  position: absolute;
+}
+
+.book {
+  position: absolute;
+  left: 28%;
+  right: 20%;
+}
+
+.text-pink {
+  color: #e1306c;
+}
+
+.text-green {
+  color: #61ce70;
+}
+
+.text-gray {
+  color: #7a7a7a;
+}
+
+.text-alabaster {
+  color: #f9f9f9;
+}
+
+.text-dark {
+  color: #303030 !important;
+}
+
+.text-yellow {
+  color: #fdca03 !important;
+}
+
+.text-purple {
+  color: #7b2fa8 !important;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-element {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linkInscrever {
+  padding: 30px 50px;
+  border-radius: 67px;
+  background-color: #61ce70;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 65px;
+}
+
+.linkInscrever h4 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 2.188rem;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1;
+}
+
+a.linkInscrever:hover {
+  color: white;
+  text-decoration: unset;
+}
+
+.como-comprar {
+  background-color: #08c5fb;
+}
+
+img.livro {
+  width: 56%;
+}
+
+svg {
+  width: calc(100% + 1.3px);
+  height: 29px;
+}
+
+.card-momento {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 2% 0% 2% 7%;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.text-price {
+  color: #c0c0c0;
+  text-decoration: line-through;
+  font-size: 27px;
+}
+
+h1.text-price {
+  color: #ea0b65;
+  font-size: 45px;
+  text-decoration: none;
+  line-height: 45px;
+}
+
+a.btn-comprar-agora {
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 500;
+  background-color: #61ce70;
+  border-radius: 10px;
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  line-height: 35px;
+  padding: 30px 50px;
+  text-align: center;
+  border-radius: 67px;
+}
+
+.card-metodo {
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 0px 10px 0px 0px;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-pergunta {
+  color: #222220;
+  background-color: #f5f5f5;
+  padding: 25px 25px 25px 25px;
+}
+
+.card-pergunta p {
+  font-size: 0.9rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #78D7FF;
+  padding: 20px 0px;
+}
+
+footer img {
+  max-height: 48px;
+  width: 100px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.element-image {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.object-fit-contain {
+  object-fit: contain;
+}
+
+.sobreIsabela {
+  font-size: 36px !important;
+}
+
+.elementor-video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  background-color: #000;
+}
+
+.wrapper.youtube-section {
+  padding-bottom: 177.8% !important;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  line-height: 1.1;
+  margin-top: 25px;
+}
+
+.section-garantia img {
+  width: 50%;
+}
+
+.section-padding-custom-1 {
+  padding: 2% 0% 10% 0%;
+}
+
+.section-padding-custom-2 {
+  padding: 2% 0% 5% 0%;
+}
+
+a.instagram-digital {
+  border: 2px solid white;
+  border-radius: 2px;
+  font-size: 18px;
+  padding: 20px 40px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  display: inline-block;
+  line-height: 35px;
+  transition: 0.2s;
+}
+
+a.instagram-digital:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+a.instagram-digital img {
+  height: 18px;
+}
+
+.feed-instagram {
+  width: 100%;
+  display: flex;
+}
+
+.feed-instagram-item {
+  width: calc(100% / 5);
+  position: relative;
+}
+
+.instagram-likes {
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  display: none;
+  transition: 0.2s;
+}
+
+.feed-instagram-item:hover .instagram-likes {
+  display: unset;
+}
+
+a.duvida {
+  font-family: 'Montserrat Bold';
+  border: 2px solid white;
+  font-size: 25px;
+  padding: 15px;
+  background-color: #49C9FA;
+  color: white;
+  width: 100%;
+  display: block;
+  line-height: 1;
+  transition: 0.2s;
+  display: flex;
+  justify-content: space-between;
+}
+
+a.duvida img {
+  width: 26px;
+  height: 26px;
+}
+
+a.duvida:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  .section-padding-custom-1 {
+    padding: 2% 0% 15% 0%;
+  }
+
+  a.instagram-digital {
+    padding: 20px 30px;
+  }
+
+  .feed-instagram-item {
+    width: calc(100% / 2);
+    position: relative;
+  }
+
+  .feed-instagram-item.item-2,
+  .feed-instagram-item.item-3,
+  .feed-instagram-item.item-4 {
+    display: none;
+  }
+
+  a.duvida {
+    font-size: 15px;
+    align-self: center;
+  }
+
+  a.duvida p {
+    align-self: center;
+  }
+
+
+  .collapse-container {
+    padding: 10px;
+  }
+
+  .section-padding-custom-2 {
+    padding: 2% 0% 10% 0%;
+  }
+
+  .como-comprar {
+    margin-bottom: 40px !important;
+  }
+
+  .swiper-container {
+    width: calc(100% - 60px) !important;
+  }
+
+  .swiper-button-prev {
+    left: 8px !important;
+    top: calc(55%) !important;
+  }
+
+  .swiper-button-next {
+    right: 10px !important;
+    top: calc(55%) !important;
+  }
+
+  .instagram {
+    flex-direction: column;
+  }
+
+  .instagram img {
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .instagram a {
+    font-size: 20px;
+  }
+
+  .proporcionar {
+    font-size: 30px;
+    line-height: 1.1;
+    margin-top: 25px;
+  }
+
+  .card-metodo p {
+    font-size: 17px !important;
+    padding: 0px 57px;
+  }
+
+  .section-voce-receber h2 {
+    font-size: 20px;
+  }
+
+  .book-bg {
+    display: none;
+  }
+
+  .book {
+    position: unset;
+    width: 65%;
+  }
+
+  h2.a-vista {
+    font-size: 30px !important;
+  }
+
+  h1.text-price {
+    font-size: 62px;
+    line-height: 62px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 43%;
+  }
+
+  .video-container {
+    padding: 0px 5px;
+  }
+
+  .linkInscrever h4 {
+    font-size: 15px;
+  }
+
+  .linkInscrever {
+    margin-bottom: 100px;
+  }
+
+  .section-padding {
+    padding: 2% 0% 20% 0%;
+  }
+
+  .center-sm-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-blackmillion {
+    padding: 20px 10px;
+  }
+
+  h1.custom-size {
+    font-size: 1.75rem;
+  }
+}
+
+.navbar-metodo {
+  background-color: #49C9FA;
+  padding: 40px 0px 40px 0px;
+}
+
+.navbar-metodo img {
+  width: 100px;
+}
+
+a.active {
+  color: black;
+}
+
+footer.metodo {
+  background-color: #78D7FF;
+  padding: 40px 0px 40px 0px;
+}

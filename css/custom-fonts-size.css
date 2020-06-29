@@ -1,0 +1,106 @@
+.fs-14 {
+  font-size: 0.875rem;
+}
+
+.fs-15 {
+  font-size: 0.938rem;
+}
+
+.fs-17 {
+  font-size: 1.063rem;
+}
+
+.fs-18 {
+  font-size: 1.125rem;
+}
+
+.fs-20 {
+  font-size: 1.25rem;
+}
+
+.fs-22 {
+  font-size: 1.375rem;
+}
+
+.fs-24 {
+  font-size: 1.5rem;
+}
+
+.fs-25 {
+  font-size: 1.563rem;
+}
+
+.fs-28 {
+  font-size: 1.75rem;
+}
+
+.fs-30 {
+  font-size: 1.875rem;
+}
+
+.fs-33 {
+  font-size: 2.063rem;
+}
+
+.fs-36 {
+  font-size: 2.25rem;
+}
+
+.fs-48 {
+  font-size: 3rem;
+}
+
+.fs-50 {
+  font-size: 3.125rem;
+}
+
+@media (max-width: 768px) {
+  .fs-14 {
+    font-size: 0.625rem;
+  }
+
+  .fs-15 {
+    font-size: 0.5rem;
+  }
+
+  .fs-17 {
+    font-size: 0.625rem;
+  }
+
+  .fs-18 {
+    font-size: 1.125rem;
+  }
+
+  .fs-20 {
+    font-size: 0.875rem;
+  }
+
+  .fs-22 {
+    font-size: 1.188rem;
+  }
+
+  .fs-24 {
+    font-size: 1rem;
+  }
+
+  .fs-25 {
+    font-size: 1.063rem;
+  }
+
+  .fs-30 {
+    font-size: 1.125rem;
+  }
+
+  .fs-33 {
+    font-size: 1.125rem;
+  }
+
+  .fs-36 {
+    font-size: 1.625rem;
+  }
+
+  .fs-50 {
+    font-size: 1.875rem;
+  }
+
+}

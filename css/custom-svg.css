@@ -1,0 +1,98 @@
+/*! CSS Used from: https://isacornicelli.com.br/wp-content/cache/wpfc-minified/6jb413tg/5ukcz.css ; media=all */
+@media all {
+  *,
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  @media print {
+    *,
+    :after,
+    :before {
+      background: transparent !important;
+      color: #000 !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  }
+  .elementor *,
+  .elementor :after,
+  .elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .elementor-shape {
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    position: absolute;
+    pointer-events: none;
+    /* top: 883px; */
+  }
+  .elementor-shape-bottom {
+    bottom: -1px;
+  }
+  .elementor-shape[data-negative="false"].elementor-shape-bottom {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .elementor-shape svg {
+    display: block;
+    width: -webkit-calc(100% + 1.3px);
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .elementor-shape .elementor-shape-fill {
+    fill: #fff;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+/*! CSS Used from: https://isacornicelli.com.br/wp-content/uploads/elementor/css/post-706.css?ver=1590459693 ; media=all */
+.elementor-shape-bottom .elementor-shape-fill-yellow {
+  fill: #fdca03;
+}
+
+.elementor-shape-bottom .elementor-shape-fill-pink {
+  fill: #ff0071;
+}
+
+.elementor-shape-bottom .elementor-shape-fill-purple {
+  fill: #9403FD;
+}
+
+.elementor-shape-bottom .elementor-shape-fill-light-blue {
+  fill: #44C8FF;
+}
+
+.elementor-shape-bottom .elementor-shape-fill-white {
+  fill: white;
+}
+
+.elementor-shape-bottom svg {
+  width: calc(195% + 1.3px);
+  height: 155px;
+}
+
+@media (max-width: 767px) {
+  .elementor-shape-bottom svg {
+    width: calc(190% + 1.3px);
+    height: 50px;
+  }
+
+  .elementor-shape {
+    top: 0px;
+  }
+}
