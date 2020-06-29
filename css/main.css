@@ -124,18 +124,8 @@ strong {
   padding: 0% 10% 0% 10%;
 }
 
-.custom-container {
-  width: 1280px;
-}
-
 .p-relative {
   position: relative;
-}
-
-.owl-one img {
-  width: unset !important;
-  max-height: 730px !important;
-  margin: 0 auto;
 }
 
 .line-heigth-1-5 {
@@ -209,10 +199,6 @@ strong {
   background-color: #ff0071;
   padding: 2% 0% 6% 0%;
 }
-
-/* .section-voce-receber .container {
-  max-width: 100% !important;
-} */
 
 .section-voce-receber h2 {
   line-height: 30px;
