@@ -210,9 +210,9 @@ strong {
   padding: 2% 0% 6% 0%;
 }
 
-.section-voce-receber .container {
+/* .section-voce-receber .container {
   max-width: 100% !important;
-}
+} */
 
 .section-voce-receber h2 {
   line-height: 30px;
@@ -325,6 +325,13 @@ strong {
   position: absolute;
 }
 
+.book-bg-main {
+  position: absolute;
+  width: 81%;
+  left: 2px;
+    top: -66px;
+}
+
 .book {
   position: absolute;
   left: 28%;
@@ -400,6 +407,7 @@ a.linkInscrever:hover {
 
 img.livro {
   width: 56%;
+  z-index: 1;
 }
 
 svg {
@@ -529,7 +537,39 @@ footer a:hover {
 }
 
 .section-padding-custom-2 {
+  padding: 5% 0% 08% 0%;
+}
+
+.section-padding-custom-3 {
   padding: 2% 0% 5% 0%;
+}
+
+.section-padding-custom-4 {
+  padding: 5% 0% 5% 0%;
+}
+
+.section-padding-custom-5 {
+  padding: 5% 0% 06% 0%;
+}
+
+.section-padding-custom-6 {
+  padding: 4% 0% 6% 0%;
+}
+
+.section-padding-custom-7 {
+  padding: 0% 0% 5% 0%;
+}
+
+.section-padding-custom-8 {
+  padding: 4% 0% 10% 0%;
+}
+
+.section-padding-custom-9 {
+  padding: 5% 0% 9% 0%;
+}
+
+.section-padding-custom-10 {
+  padding: 5% 0% 0% 0%;
 }
 
 a.instagram-digital {
