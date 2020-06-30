@@ -1,3 +1,6 @@
+var observer = lozad();
+observer.observe();
+
 var mySwiper = new Swiper(".swiper-container", {
   // Optional parameters
   direction: "horizontal",
@@ -50,20 +53,6 @@ $("#hideContentText").click(function () {
   $("#text-content").hide();
   $("#slide-content").show();
 });
-
-//https://addyosmani.com/blog/lazy-loading/ LAZY LOADING
-if ("loading" in HTMLImageElement.prototype) {
-  const images = document.querySelectorAll("img.lazyload");
-  images.forEach((img) => {
-    img.src = img.src;
-  });
-} else {
-  // Dynamically import the LazySizes library
-  let script = document.createElement("script");
-  script.async = true;
-  script.src = "./js/lazysizes.min.js";
-  document.body.appendChild(script);
-}
 
 var startVimeo = function () {
   $("#thumb-vimeo").css("display", "none");
