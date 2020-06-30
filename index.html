@@ -4,12 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="./js/lozad.min.js"></script>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/custom-fonts-size.css">
-    <link rel="stylesheet" href="./css/custom-svg.css">
-    <link rel="stylesheet" href="./css/swiper.min.css">
+    
+
+    <!-- <link rel="preload" href="./js/lozad.min.js" as="javascript" onload="this.rel='text/javascript'"><noscript>
+        <link rel="stylesheet" href="./js/lozad.min.js"></noscript> -->
+
+    <link rel="preload" href="./css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'"><noscript>
+        <link rel="stylesheet" href="./css/bootstrap.min.css"></noscript>
+
+    <link rel="preload" href="./css/main.css" as="style" onload="this.rel='stylesheet'"><noscript>
+        <link rel="stylesheet" href="./css/main.css"></noscript>
+
+    <link rel="preload" href="./css/custom-fonts-size.css" as="style" onload="this.rel='stylesheet'"><noscript>
+        <link rel="stylesheet" href="./css/custom-fonts-size.css"></noscript>
+
+    <link rel="preload" href="./css/custom-svg.css" as="style" onload="this.rel='stylesheet'"><noscript>
+        <link rel="stylesheet" href="./css/custom-svg.css"></noscript>
+
+    <link rel="preload" href="./css/swiper.min.css" as="style" onload="this.rel='stylesheet'"><noscript>
+        <link rel="stylesheet" href="./css/swiper.min.css"></noscript>
+
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
     <title>Método Influência Digital – Método Influência Digital</title>
@@ -39,7 +53,7 @@
                     <div class="wrapper">
                         <div id="vimeo-video"></div>
                         <img id="thumb-vimeo" class="thumb-video lozad" onclick="startVimeo()"
-                            data-src="./images/thumb-youtube-main.png">
+                            data-src="./images/thumb-youtube-main.webp">
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -1077,7 +1091,7 @@
 
     </footer>
 
-
+    <script type="text/javascript" src="./js/lozad.min.js"></script>
     <script src="./js/jquery-3.5.1.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
