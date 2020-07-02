@@ -533,7 +533,7 @@ footer a:hover {
 }
 
 .section-padding-custom-2 {
-  padding: 5% 0% 08% 0%;
+  padding: 1% 0% 8% 0%
 }
 
 .section-padding-custom-3 {
@@ -557,7 +557,7 @@ footer a:hover {
 }
 
 .section-padding-custom-8 {
-  padding: 4% 0% 10% 0%;
+  padding: 3% 0% 9% 0%;
 }
 
 .section-padding-custom-9 {
@@ -566,6 +566,30 @@ footer a:hover {
 
 .section-padding-custom-10 {
   padding: 5% 0% 0% 0%;
+}
+
+.section-padding-custom-11 {
+  padding: 27px 0px 106px 0px;
+}
+
+.section-padding-custom-12 {
+  padding: 2% 0% 9% 0%;
+}
+
+.section-padding-custom-13 {
+  padding: 3% 0% 8% 0%;
+}
+
+.section-padding-custom-14 {
+  padding: 2% 0% 11% 0%;
+}
+
+.section-padding-custom-15 {
+  padding: 2% 0% 10% 0%;
+}
+
+.section-padding-custom-16 {
+  padding: 1% 0% 9% 0%;
 }
 
 a.instagram-digital {
@@ -649,8 +673,16 @@ a.duvida:hover {
     font-size: 25px;
   }
 
+  .card-momento {
+    padding: 4% 0% 4% 7%;
+  }
+
   .section-padding-custom-1 {
     padding: 2% 0% 15% 0%;
+  }
+
+  .section-padding-custom-2 {
+    padding: 2% 0% 20% 0%;
   }
 
   .section-padding-custom-4 {
@@ -665,8 +697,36 @@ a.duvida:hover {
     padding: 10% 0% 15% 0%;
   }
 
+  .section-padding-custom-8 {
+    padding: 3% 0% 20% 0%;
+  }
+
   .section-padding-custom-9 {
     padding: 8% 0% 9% 0%;
+  }
+
+  .section-padding-custom-11 {
+    padding: 27px 0px 65px 0px;
+  }
+
+  .section-padding-custom-12 {
+    padding: 2% 0% 11% 0%;
+  }
+
+  .section-padding-custom-13 {
+    padding: 3% 0% 16% 0%;
+  }
+
+  .section-padding-custom-14 {
+    padding: 2% 0% 20% 0%;
+  }
+
+  .section-padding-custom-15 {
+    padding: 2% 0% 20% 0%;
+  }
+
+  .section-padding-custom-16 {
+    padding: 1% 0% 17% 0%
   }
 
   .bonus {
@@ -700,10 +760,6 @@ a.duvida:hover {
 
   .collapse-container {
     padding: 10px;
-  }
-
-  .section-padding-custom-2 {
-    padding: 2% 0% 10% 0%;
   }
 
   .como-comprar {
@@ -746,7 +802,7 @@ a.duvida:hover {
 
   .card-metodo p {
     font-size: 17px !important;
-    padding: 0px 57px;
+    padding: 0px 20px;
   }
 
   .section-voce-receber h2 {
