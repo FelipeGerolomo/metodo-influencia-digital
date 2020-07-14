@@ -640,6 +640,7 @@ a.duvida {
   line-height: 1;
   transition: 0.2s;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -648,7 +649,12 @@ a.duvida img {
   height: 26px;
 }
 
+a.duvida p {
+  margin: 0px;
+}
+
 a.duvida:hover {
+  color: white;
   text-decoration: none;
 }
 
@@ -870,7 +876,7 @@ a.duvida:hover {
 }
 
 .navbar-metodo img {
-  width: 100px;
+  width: 150px;
 }
 
 a.active {
